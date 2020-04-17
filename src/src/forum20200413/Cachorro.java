@@ -11,7 +11,7 @@ public class Cachorro {
     
 
 	
-	public Cachorro(String nome, String raca, int idade,double peso) {
+	public Cachorro() {
 		this.nome = nome;
 		this.raca = raca;
 		this.idade = idade;
@@ -32,6 +32,15 @@ public class Cachorro {
 	public void mudarRaca(String raca) {
 		this.raca = raca;
 	}
+	public void mudarIdade(String idade) {
+		this.idade = idade;
+	}
+	public void mudarPeso(String peso) {
+		this.peso = peso;
+	}
+	public void mudarPedigre(String pedigre) {
+	        this.pedigre = pedigre;
+	}	
 	public double getPeso() {
 		return this.peso;
 	}
