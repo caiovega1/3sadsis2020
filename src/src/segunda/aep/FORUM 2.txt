@@ -1,0 +1,8 @@
+
+--1
+Segundo o livro java como programar 10 edição dos autores Paul Deitel e Harvey Deitel. "Classes (e seus objetos) encapsulam, isto e contêm seus aatributos e metodos.", isso quer dizer que as classes e os objetos guardam os atributos e  metodos e tem uma relação muito intima mas mesmo assim os objetos podem realizar comunicaçoes entre se mas em geral um objeto nunca sabe como outro e implementados pois essa s informções permanecem ocultas dentro do proprio objeto, Logo em minha visao o encapsulamento serve para garantir a segurança dos dados que sao implementados em cada objeto impedindo que outros objetos tenham acesso a eles.
+
+--2 
+O encapsulamento e importante pois ele deixa o seu codigo mais sucetível a mudanças por que com ele evitaremos de ter a necessidade de realizar auteraçoes quando necessarias no codigo inteiro e sim somente no lugar onde se faz preciso a mudança.
+
+referencia:https://www.caelum.com.br/apostila-java-orientacao-objetos/modificadores-de-acesso-e-atributos-de-classe/#exerccios-encapsulamento-construtores-e-static    
