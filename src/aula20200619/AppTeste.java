@@ -5,9 +5,9 @@ import java.util.Date;
 public class AppTeste {
 	// A superclasse competiçoes e as subclasses torneio e corrida
 	public static void main(String[] args) {
-		Competicao quinhentosMetros = new Corrida("Corrida 500 metros", new Date(2022, 5, 13),
+		Competição quinhentosMetros = new Corrida("Corrida 500 metros", new Date(2022, 5, 13),
 				"Corrida 500 mentros regional");
-		Competicao boxeAmador = new Torneio("Torneio de boxe amador", new Date(2020, 7, 21),
+		Competição boxeAmador = new Torneio("Torneio de boxe amador", new Date(2020, 7, 21),
 				"Torneio amador para aspirantes premio de 1000 reais custo de inscrição 100 reais");
 		System.out.println(quinhentosMetros.getNome());
 		System.out.println(boxeAmador.getNome());
